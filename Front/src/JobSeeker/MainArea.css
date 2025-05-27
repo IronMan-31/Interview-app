@@ -1,0 +1,10 @@
+#card{
+    margin: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+}
+#flexing{
+    flex-grow: 1;
+    padding-left: 25px;
+}

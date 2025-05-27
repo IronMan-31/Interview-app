@@ -1,0 +1,50 @@
+#Register{
+    width: 840%;
+    height: 100vh;
+    padding-left: 15px;
+    width: 35%;
+    position: absolute;
+    right: 0;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);         
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    border-radius: 15px;                
+    padding: 20px;                       
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+.elem{
+    margin-top: 15px;   
+    padding-left: 15px;
+}
+input{
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+}
+
+#submit{
+    margin-top: 30px;
+    border: none;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    width: 100%;
+}
+#submit:active{
+    color: black;
+    background-color: white;
+}
+.body1{
+    background-image: url('image.jpg');
+  background-size:cover;
+}
+#flex{
+    display: flex;
+}
+#welcome{
+    position: absolute;
+    left: 25vmax;
+    top: 40vh;
+}
